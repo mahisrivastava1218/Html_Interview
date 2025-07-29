@@ -1,0 +1,12 @@
+GET
+GET requests are used to “get” resources from a server. By definition, GET requests should only fetch data from the server and shouldn’t change the data stored on the server.
+
+POST
+POST requests are used to send some data to the server. Some use cases are to submit data from a web form or to upload a file to the server.
+
+PUT
+PUT requests are used to update data on the server side. This could be for actions like changing your Facebook relationship status, updating a student’s marks
+on the college server after improvement exams etc.
+
+Delete
+Used to delete existing data in the server Eg.Delete one of your facebook posts
