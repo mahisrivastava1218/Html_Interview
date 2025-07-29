@@ -1,0 +1,12 @@
+Status codes - 2xx
+The 2xx family of status codes or status codes 200-299 signifies the HTTP request was successfully received & understood by the server. 
+
+Status codes - 3xx
+3xx family of status codes denotes that further action must be taken to complete the HTTP request made.
+ex->Note the response status code: 301 Moved Permanently. This is Flipkart asking the browser to redirect the request from the unsecure URL (http://) to the secure URL (https://) instead. The browser 
+will oblige and send the request accordingly.
+
+Status codes - 4xx
+Getting a 4xx status code tells us that there was an error in the HTTP request sent by the client - that would be the browser if we are visiting web pages.
+
+There are a couple more HTTP status code families - 1xx & 5xx. 1xx is for information purposes while 5xx signifies there was a server error.
