@@ -30,4 +30,11 @@ How the total width and height of the element are calculated.
 What is the primary function of the git clone command in Git?
 To copy a remote repository to your local machine.
 
+After completing work on a feature branch, a developer wants to integrate their changes into the main branch. What Git command should the
+developer use to merge their feature branch into the main branch?
+git checkout main; git merge feature-branch
+
+To merge changes from a feature branch into the main branch, the developer should first switch to the main branch using git checkout main 
+and then use git merge feature-branch to merge the changes from the feature branch.
+
 
