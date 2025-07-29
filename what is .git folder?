@@ -20,4 +20,50 @@ When we run:
 git init
 Git creates the .git folder to start tracking changes.
 
-git log is used to view the commit history of a Git repository.(track changes and commit)
+git log is used to view the commit history of a Git repository.(track changes and commit).git log to view all our commits.
+
+git clone command for downloading repositories. 
+
+git add followed by git commit) to create a second commit with changes
+
+See the output of git status after each command. 
+
+git push -u origin master for that. We specify the remote name (origin) & its branch(master) we’re pushing our code to.
+
+git log --follow <filename> lists all commits that changed this file.
+
+The git add command marks changes made to any files for including in the next commit.
+
+Every time you execute git pull or git fetch commands, we update remote tracking branches.
+
+git pull is a combination command, equal to git fetch + git merge.
+
+git fetch
+On its own, git fetch updates all the remote tracking branches in local repository. No changes are actually reflected on any of the local working branches.
+
+git merge
+Without any arguments, git merge will merge the corresponding remote tracking branch to the local working branch.
+
+| Command           | Purpose                         | Example                                |
+| ----------------- | ------------------------------- | -------------------------------------- |
+| `git init`        | Start a new Git repo            | `git init`                             |
+| `git clone`       | Copy a repo                     | `git clone <url>`                      |
+| `git status`      | Show current changes            | `git status`                           |
+| `git add`         | Stage files                     | `git add .` or `git add file.js`       |
+| `git commit`      | Save changes                    | `git commit -m "message"`              |
+| `git log`         | View commit history             | `git log --oneline`                    |
+| `git diff`        | Show file changes               | `git diff`                             |
+| `git branch`      | List/create branches            | `git branch` / `git branch dev`        |
+| `git checkout`    | Switch branch                   | `git checkout dev`                     |
+| `git merge`       | Merge branches                  | `git merge dev`                        |
+| `git pull`        | Fetch + merge from remote       | `git pull origin main`                 |
+| `git fetch`       | Download from remote (no merge) | `git fetch origin`                     |
+| `git push`        | Upload to remote                | `git push origin main`                 |
+| `git remote -v`   | Show remote URLs                | `git remote -v`                        |
+| `git stash`       | Save changes temporarily        | `git stash` / `git stash pop`          |
+| `git reset`       | Undo changes                    | `git reset --hard <commit>`            |
+| `git rebase`      | Replay commits (clean history)  | `git rebase main`                      |
+| `git cherry-pick` | Apply one specific commit       | `git cherry-pick <commit>`             |
+| `git revert`      | Revert a commit (safe undo)     | `git revert <commit>`                  |
+| `git tag`         | Create version tags             | `git tag v1.0`                         |
+| `git config`      | Set user info                   | `git config --global user.name "Mahi"` |
