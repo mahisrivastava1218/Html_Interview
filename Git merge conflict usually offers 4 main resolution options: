@@ -1,0 +1,15 @@
+1. Accept Current Change
+Keeps your branch's version (what’s in HEAD)
+Ignores incoming changes from the branch you’re merging
+
+2. Accept Incoming Change
+Keeps the incoming branch's version (from the merged branch)
+Discards your local changes to that conflict
+
+3. Accept Both Changes
+Combines your change and the incoming change
+Both code blocks will be included (you can clean it up afterward)
+
+4. Compare Changes (or Manual Edit)
+Lets you open both versions side-by-side
+You choose what to keep, edit, or merge manually
