@@ -1,0 +1,18 @@
+Version Control is a system that helps you track changes in your code or files over time.
+
+It lets :
+
+Save code at different checkpoints (versions)
+Go back to old versions if needed
+Collaborate with others without overwriting their work
+See who changed what, when, and why
+
+🔧 Git is the Most Popular Version Control System
+🧠 Real-Life Example:
+Like Google Docs revision history — but for our code.
+
+✅ Benefits:
+Undo mistake
+Track progress
+Team collaboration
+Branching and testing features safely
