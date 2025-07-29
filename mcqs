@@ -3,3 +3,7 @@ target
 
 Which HTML attribute is used to create a bookmark within a web page?
 id
+
+If you were to add 5 images to your HTML file using <img>, how many extra HTTP GET calls will it result in?
+5 extra HTTP GET calls, each retrieving an image.
+
