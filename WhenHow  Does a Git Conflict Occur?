@@ -1,0 +1,36 @@
+A Git conflict happens when Git can't automatically merge changes between branches — usually because two people changed the same part of the same file.
+
+Situations That Cause Conflicts:
+Scenario	What Happens
+Merge (git merge)	Two branches change the same line
+Rebase (git rebase)	Your commits conflict with the latest changes
+Pull (git pull)	Remote and local changes clash
+Cherry-pick	Picking a commit that modifies lines already changed
+
+🧠 Example:
+You and your teammate both edit the same line in app.js
+
+You both commit changes
+
+You try to git pull or git merge their branch
+
+Git can't decide which version to keep → conflict!
+
+⚠️ How You Know:
+Git shows
+CONFLICT (content): Merge conflict in app.js
+Automatic merge failed; fix conflicts and commit the result.
+The file will contain:
+<<<<<<< HEAD
+Your changes
+=======
+Their changes
+>>>>>>> branch-name
+✅ How to Resolve:
+Open the conflicted file
+Edit it manually and choose what to keep
+
+Run:
+
+git add filename
+git commit
