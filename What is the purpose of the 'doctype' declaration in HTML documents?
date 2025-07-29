@@ -1,0 +1,15 @@
+The purpose of the <!DOCTYPE> declaration in HTML documents is to tell the browser which version of HTML the page is written in, so it can render the page correctly.
+
+<!DOCTYPE> must be the very first line in an HTML document.
+
+It is not an HTML tag, but an instruction to the browser.
+
+It helps the browser operate in "standards mode" instead of "quirks mode", ensuring consistent rendering.
+
+Common Example:
+<!DOCTYPE html>
+This declares an HTML5 document.
+
+Why It's Important:
+Without a proper <!DOCTYPE>, browsers may switch to quirks mode, which tries to mimic old, non-standard behavior—often leading to inconsistent layout and CSS rendering across browsers.
+
