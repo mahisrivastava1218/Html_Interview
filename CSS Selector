@@ -1,0 +1,14 @@
+A CSS selector is used to target HTML elements so you can apply styles to them.
+
+| Selector Type      | Example                | Targets                                 |
+| ------------------ | ---------------------- | --------------------------------------- |
+| **Universal**      | `*`                    | All elements                            |
+| **Element**        | `p`                    | All `<p>` tags                          |
+| **Class**          | `.box`                 | Elements with `class="box"`             |
+| **ID**             | `#main`                | Element with `id="main"`                |
+| **Group**          | `h1, h2`               | All `<h1>` and `<h2>` elements          |
+| **Descendant**     | `div p`                | All `<p>` inside `<div>`                |
+| **Child**          | `ul > li`              | Direct `<li>` children of `<ul>`        |
+| **Attribute**      | `input[type="text"]`   | `<input>` with type="text"              |
+| **Pseudo-class**   | `a:hover`              | `<a>` elements when hovered             |
+| **Pseudo-element** | `p::before`, `::after` | Parts of elements (before, after, etc.) |
