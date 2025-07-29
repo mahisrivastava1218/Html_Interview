@@ -14,3 +14,20 @@ What is the format of an absolute link in HTML?
 <a href="https://www.crio.do/">Text</a>
 Absolute links (or URLs) is equal to Full Web Address. Absolute links in HTML are links that specify the complete URL of the destination page, 
 including the protocol (HTTP or HTTPS), domain name, and file path.
+
+What does the !important declaration do in CSS?
+Overrides the natural cascading order and specificity of CSS rules.
+
+What is the purpose of the git commit command?
+To create a snapshot of the staged changes in the local repository
+
+What is the purpose of the git push command?
+To update the remote repository with local changes
+
+What does the box-sizing property in CSS change about an element?
+How the total width and height of the element are calculated.
+
+What is the primary function of the git clone command in Git?
+To copy a remote repository to your local machine.
+
+
