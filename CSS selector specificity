@@ -1,0 +1,27 @@
+CSS specificity determines which rule wins when multiple rules target the same element.
+
+| Selector Type                        | Specificity Value    | Example                           |
+| ------------------------------------ | -------------------- | --------------------------------- |
+| **Universal**                        | `0,0,0,0`            | `*`                               |
+| **Element / Type**                   | `0,0,0,1`            | `h1`, `div`, `p`                  |
+| **Class / Pseudo-class / Attribute** | `0,0,1,0`            | `.btn`, `:hover`, `[type="text"]` |
+| **ID Selector**                      | `0,1,0,0`            | `#header`                         |
+| **Inline Style**                     | `1,0,0,0`            | `style="color: red"`              |
+| **!important**                       | Overrides all others | `color: red !important;`          |
+
+
+Specificity is usually written as a 4-part value: a,b,c,d
+
+a: inline styles
+
+b: number of ID selectors
+
+c: number of classes, attributes, pseudo-classes
+
+d: number of element names and pseudo-elements
+
+🔧 Tips to Avoid Specificity Wars:
+Prefer class selectors over IDs in CSS.
+Use specificity calculator tools (optional).
+Avoid too many nested selectors.
+Use !important sparingly—only as a last resort.
