@@ -19,3 +19,5 @@ You can’t run commands like git status, git log, or git commit without it.
 When we run:
 git init
 Git creates the .git folder to start tracking changes.
+
+git log is used to view the commit history of a Git repository.(track changes and commit)
