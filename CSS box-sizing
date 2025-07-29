@@ -1,0 +1,25 @@
+The box-sizing property controls how the total width and height of an element is calculated.
+
+ Values of box-sizing:
+Value	What It Means
+content-box	Default: Width/height do not include padding or border.
+border-box	Width/height include content + padding + border.
+
+🧠 Visual Example:
+box-sizing: content-box; (default)
+width: 200px;
+padding: 20px;
+👉 Total width = 200 + 20 + 20 = 240px
+
+box-sizing: border-box;
+width: 200px;
+padding: 20px;
+👉 Total width = 200px, including padding!
+
+✅ Best Practice:
+Use this in your CSS:
+* {
+  box-sizing: border-box;
+}
+This makes layouts more predictable and easier to manage.
+
