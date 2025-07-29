@@ -1,0 +1,14 @@
+HTTP stands for HyperText Transfer Protocol.
+
+
+It is, like the name suggests, a set of rules for querying the web.
+It works on a client-server model, where the client, in most cases, the browser, makes a network request, and waits for the server to respond.
+
+
+
+Browsers use HTTP requests to fetch us web pages.
+
+
+When we enter a website URL, the browser creates an HTTP request for the HTML of the page, on our behalf, and sends it to the server on which the website is hosted.
+The HTTP response from the server is read by the browser and rendered for us beautifully as web pages instead of the raw HTML returned.
+
