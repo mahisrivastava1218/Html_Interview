@@ -144,3 +144,10 @@ The <address> tag is used to define contact information for the author or owner 
   Example.com<br>
   Box 564, Disneyland<br>
   USA
+</addres>
+
+The object-fit property is used to control how an image or video fits inside its container.
+fill	- Stretches the image to fill the container (may distort).
+contain -	Scales the image to fit completely, maintains aspect ratio.
+cover	- Scales the image to fill the container, may crop overflow.
+none	- Keeps the image at original size.
