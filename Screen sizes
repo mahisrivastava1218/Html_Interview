@@ -1,0 +1,5 @@
+Extra-small (portrait phones)->  <576 (navbar-expand)
+small(landscape phones)->>=576 (navbar-expand-sm)
+medium(tablets) -> >=768 (navbar-expand-md)
+large(desktop)>=992 (navbar-expand-lg)
+extra-large(large desktop) - >1200(nabar-expand-xl)
