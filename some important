@@ -152,3 +152,30 @@ contain -	Scales the image to fit completely, maintains aspect ratio.
 cover	- Scales the image to fill the container, may crop overflow.
 none	- Keeps the image at original size.
 
+25. What are data attributes in HTML, and how are they used?
+Data attributes in HTML are custom attributes that start with data- and allow you to store extra information on HTML elements. 
+They are often used to embed custom data that can be accessed via JavaScript.
+<div data-user-id="12345" data-role="admin">User Info</div>
+In JavaScript, you can access these attributes using the dataset property:
+
+const div = document.querySelector('div');
+console.log(div.dataset.userId); // Outputs: 12345
+console.log(div.dataset.role);   // Outputs: admin
+
+26. What is the purpose of the rel attribute in a <link> tag?
+The rel attribute specifies the relationship between the current document and the linked resource. 
+For example, rel="stylesheet" indicates that the linked file is a CSS stylesheet.
+<link rel="stylesheet" href="styles.css">
+
+27. What is the purpose of the <datalist> tag in HTML?
+The <datalist> tag is used to provide a list of predefined options to an <input> element, typically used to offer autocomplete suggestions.
+<label for="browser">Choose your browser:</label>
+<input list="browsers" id="browser" name="browser">
+<datalist id="browsers">
+  <option value="Chrome">
+  <option value="Firefox">
+  <option value="Safari">
+  <option value="Edge">
+  <option value="Opera">
+</datalist>
+When the user starts typing in the input field, the browser will display the options defined in the <datalist> that match the current input.
