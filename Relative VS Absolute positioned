@@ -1,0 +1,20 @@
+🔹 position: relative
+The element is positioned relative to its normal position.
+can use top, left, right, bottom to move it.
+It reserves space in the layout.
+Use case: To slightly move an element while keeping its space.
+.box {
+  position: relative;
+  top: 10px;  /* moves 10px down */
+}
+🔹position: absolute
+The element is positioned relative to the nearest positioned ancestor (anything with relative, absolute, or fixed).
+If no ancestor is positioned, it’s relative to <body> (the document).
+It does NOT reserve space.
+Use case: Used to freely place an element anywhere in a container.
+.child {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+ To make absolute work inside a container, that container must have position: relative.
