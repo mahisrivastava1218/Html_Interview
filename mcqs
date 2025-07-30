@@ -43,12 +43,4 @@ z-index,top,bottom,right,left
 Which CSS property determines the stacking order of positioned elements?
 z-index
 
-44. What are data attributes in HTML, and how are they used?
-Data attributes in HTML are custom attributes that start with data- and allow you to store extra information on HTML elements. 
-They are often used to embed custom data that can be accessed via JavaScript.
-<div data-user-id="12345" data-role="admin">User Info</div>
-In JavaScript, you can access these attributes using the dataset property:
 
-const div = document.querySelector('div');
-console.log(div.dataset.userId); // Outputs: 12345
-console.log(div.dataset.role);   // Outputs: admin
