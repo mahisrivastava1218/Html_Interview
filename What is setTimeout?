@@ -1,0 +1,32 @@
+setTimeout is a built-in JavaScript function used to execute a callback function after a specified delay (in milliseconds).
+Syntax:
+setTimeout(callback, delayInMilliseconds, ...args);
+callback: Function to execute
+delayInMilliseconds: Wait time before execution
+...args: Optional arguments to pass to the callback
+
+ Example:
+console.log("Start");
+
+setTimeout(function () {
+  console.log("This runs after 2 seconds");
+}, 2000);
+
+console.log("End");
+Output:
+Start
+End
+This runs after 2 seconds
+setTimeout is asynchronous — it doesn’t block the next lines of code.
+
+⏹️ Cancel a 
+let timer = setTimeout(() => {
+  console.log("This won't run");
+}, 3000);
+
+clearTimeout(timer); // Cancels the timeout
+Use Cases
+Delay UI updates
+Show messages temporarily
+Debounce inputs
+Schedule one-time tasks
