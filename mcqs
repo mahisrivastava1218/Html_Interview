@@ -43,4 +43,21 @@ z-index,top,bottom,right,left
 Which CSS property determines the stacking order of positioned elements?
 z-index
 
+What is a Node in the DOM (Document Object Model) tree?
+In the DOM tree, a node is an object that represents various components of an HTML document, such as elements, attributes,
+or text. Nodes can be manipulated or accessed using JavaScript to modify the structure and content of a web page dynamically.
 
+What does it mean when we say JavaScript is single-threaded?
+because at a time only one line of code is executed
+
+What is the purpose of JavaScript in web browsers?
+to adding interactivity to web pages.
+
+What does the Document Object Model (DOM) represent in web development?
+the structure representation of a web page(The DOM represents the structured representation of a web page, allowing
+programmers to access and modify the content, structure, and style of a website programmatically.
+
+How is JavaScript incorporated into an HTML document? using <script> tag
+
+What will happen if JavaScript is disabled in a web browser?
+interactivity,such as form-validation, dynamic content loading will not work
