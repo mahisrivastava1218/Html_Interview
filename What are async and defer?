@@ -1,0 +1,25 @@
+Purpose of async and defer
+Both are used to load external JavaScript files without blocking the parsing of HTML.
+
+async
+Downloads the script in parallel with HTML parsing.
+Executes the script immediately after it's downloaded, pausing HTML parsing.
+Example:
+<script src="script.js" async></script>
+Behavior:
+HTML starts parsing.
+script.js is fetched asynchronously.
+As soon as it's ready, it runs immediately.
+HTML parsing pauses while it runs.
+
+✅ defer
+Downloads the script in parallel with HTML parsing.
+Waits until HTML is fully parsed, then runs scripts in order.
+Example:
+<script src="script.js" defer></script>
+Behavior:
+HTML starts parsing.
+script.js is fetched asynchronously.
+After the entire HTML is parsed, script executes.
+Maintains execution order for multiple scripts.
+
